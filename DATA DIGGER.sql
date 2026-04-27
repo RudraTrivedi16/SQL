@@ -110,5 +110,3 @@ limit 3;
 SELECT COUNT(*) AS total_orders
 FROM orderdetails
 WHERE productID = 1;
-
-drop table orderdetails
